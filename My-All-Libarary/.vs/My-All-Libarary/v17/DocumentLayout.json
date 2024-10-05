@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\OneDrive\\Programming Advices\\GitHub Project\\My-All-Libaray-With-CPP\\My-All-Libarary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CCFFBA5B-495B-47AA-BBB0-6C2059D7A785}|My-All-Libarary.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\My-All-Libaray-With-CPP\\My-All-Libarary\\clsString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CCFFBA5B-495B-47AA-BBB0-6C2059D7A785}|My-All-Libarary.vcxproj|solutionrelative:clsString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFBA5B-495B-47AA-BBB0-6C2059D7A785}|My-All-Libarary.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\My-All-Libaray-With-CPP\\My-All-Libarary\\clsChar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CCFFBA5B-495B-47AA-BBB0-6C2059D7A785}|My-All-Libarary.vcxproj|solutionrelative:clsChar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCFFBA5B-495B-47AA-BBB0-6C2059D7A785}|My-All-Libarary.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\My-All-Libaray-With-CPP\\My-All-Libarary\\My-All-Libarary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CCFFBA5B-495B-47AA-BBB0-6C2059D7A785}|My-All-Libarary.vcxproj|solutionrelative:My-All-Libarary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsString.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\My-All-Libaray-With-CPP\\My-All-Libarary\\clsString.h",
+              "RelativeDocumentMoniker": "clsString.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\My-All-Libaray-With-CPP\\My-All-Libarary\\clsString.h",
+              "RelativeToolTip": "clsString.h",
+              "ViewState": "AQIAABsBAAAAAAAAAAAAwEcBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-05T09:43:45.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsChar.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\My-All-Libaray-With-CPP\\My-All-Libarary\\clsChar.h",
+              "RelativeDocumentMoniker": "clsChar.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\My-All-Libaray-With-CPP\\My-All-Libarary\\clsChar.h",
+              "RelativeToolTip": "clsChar.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-05T09:42:44.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "My-All-Libarary.cpp",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\My-All-Libaray-With-CPP\\My-All-Libarary\\My-All-Libarary.cpp",
               "RelativeDocumentMoniker": "My-All-Libarary.cpp",
