@@ -1,4 +1,6 @@
 ﻿  My-All-Libarary.cpp
-D:\OneDrive\Programming Advices\GitHub Project\My-All-Libaray-With-CPP\My-All-Libarary\clsUtil.h(10,20): warning C4091: 'static ': ignored on left of 'clsUtil::EnCharType' when no variable is declared
-D:\OneDrive\Programming Advices\GitHub Project\My-All-Libaray-With-CPP\My-All-Libarary\clsUtil.h(49,1): warning C4715: 'clsUtil::GetRandomCharacter': not all control paths return a value
+D:\OneDrive\Programming Advices\GitHub Project\My-All-Libaray-With-CPP\My-All-Libarary\clsString.h(54,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+D:\OneDrive\Programming Advices\GitHub Project\My-All-Libaray-With-CPP\My-All-Libarary\clsString.h(256,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+D:\OneDrive\Programming Advices\GitHub Project\My-All-Libaray-With-CPP\My-All-Libarary\clsUtil.h(11,20): warning C4091: 'static ': ignored on left of 'clsUtil::EnCharType' when no variable is declared
+D:\OneDrive\Programming Advices\GitHub Project\My-All-Libaray-With-CPP\My-All-Libarary\clsUtil.h(50,1): warning C4715: 'clsUtil::GetRandomCharacter': not all control paths return a value
   My-All-Libarary.vcxproj -> D:\OneDrive\Programming Advices\GitHub Project\My-All-Libaray-With-CPP\My-All-Libarary\x64\Debug\My-All-Libarary.exe
