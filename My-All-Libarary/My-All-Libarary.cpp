@@ -50,8 +50,31 @@ int main()
 
    string arr4[5];
    clsUtil::FillArrayWithRandomWords(arr4, 5, clsUtil::MixChars, 8);
+   cout << "\nArray After fill string words : \n";
    for (int i = 0; i < 5; i++)
    {
       cout << arr4[i] << endl;
    }
+
+   string arr5[5];
+   clsUtil::FillArrayWithRandomKeys(arr5, 5, clsUtil::CapitalLetter);
+   cout << "\nArray After filling keys : \n";
+   for (int i = 0; i < 5; i++)
+   {
+	   cout << arr5[i] << endl;
+   }
+
+   cout << "\nText1 " << clsUtil::Tabs(5) << "Text2\n";
+   const short EncryptionKey = 65; //THIS IS THE KEY
+
+   string TextAfterEncryption, TextAfterDecryption;
+   string Text = "Hello World -_- !";
+
+   TextAfterEncryption = clsUtil::Encryption(Text, EncryptionKey);
+   TextAfterDecryption = clsUtil::Decryption(TextAfterEncryption, EncryptionKey);
+
+   cout << "\nText Before Encryption : " << Text << endl;
+   cout << "Text After Encryption : " << TextAfterEncryption;
+   cout << "\nText After Decryption : " << TextAfterDecryption << "\n";
+
 }

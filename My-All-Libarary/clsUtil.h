@@ -135,10 +135,12 @@ class clsUtil
            for (int i = 0; i < ArrLength; i++)
                Swap(Arr[RandomNumber(1, ArrLength) - 1], Arr[RandomNumber(1, ArrLength) - 1]);
        }
+
        static void ShuffleArray(string Arr[100], int ArrLength) {
            for (int i = 0; i < ArrLength; i++)
                Swap(Arr[RandomNumber(1, ArrLength) - 1], Arr[RandomNumber(1, ArrLength) - 1]);
        }
+
        static void FillArrayWithRandomNumber(int Arr[100], int Arraylength, int From, int To)
        {
            for (int i = 0; i < Arraylength; i++)
@@ -146,6 +148,7 @@ class clsUtil
                Arr[i] = RandomNumber(From, To);
            }
        }
+
        static void FillArrayWithRandomWords(string Arr[100], int Arraylength,EnCharType CharType,int lengthOfWord)
      {
          for (int i = 0; i < Arraylength; i++)
@@ -153,5 +156,46 @@ class clsUtil
              Arr[i] = GeneratWord(CharType, lengthOfWord);
          }
      }
+
+       static void FillArrayWithRandomKeys(string Array[100], int LengthOfArray, EnCharType CharType)
+       {
+         
+           for (int i = 0; i < LengthOfArray; i++)
+               Array[i] = GeneratKey(CharType);
+       }
+
+       static string  Tabs(short NumberOfTabs)
+       {
+           string t = "";
+
+           for (int i = 1; i < NumberOfTabs; i++)
+           {
+               t += "\t";
+           }
+           return t;
+
+       }
+
+       static string Encryption(string Text, short EncryptionKey)
+       {
+
+           for (int i = 0; i < Text.length(); i++)
+           {
+               Text[i] = char((int)Text[i] + EncryptionKey);
+           }
+
+           return Text;
+       }
+
+       static string Decryption(string Text,  short EncryptionKey) 
+       {
+
+           for (int i = 0; i < Text.length(); i++)
+           {
+               Text[i] = char((int)Text[i] - EncryptionKey);
+           }
+
+           return Text;
+       }
 }; 
 

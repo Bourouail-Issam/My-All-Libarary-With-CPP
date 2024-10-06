@@ -43,8 +43,6 @@ public:
 
         cout << "Period End: ";
         EndDate.Print();
-
-
     }
 
 };
