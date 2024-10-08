@@ -1,6 +1,8 @@
 
 #include <iostream>
 #include "clsUtil.h"
+#include "clsInputValidate.h"
+
 using namespace std;
 
 int main()
@@ -77,4 +79,34 @@ int main()
    cout << "Text After Encryption : " << TextAfterEncryption;
    cout << "\nText After Decryption : " << TextAfterDecryption << "\n";
 
+   cout << clsInputValidate::IsNumberBetween(5, 1, 10) << endl;
+   cout << clsInputValidate::IsNumberBetween(5.5, 1.3, 10.8) << endl;
+
+   cout << clsInputValidate::IsNumberBetween(
+	   clsDate(),clsDate(11, 9, 2024),clsDate(31,12,2024)) << endl;
+
+   cout << clsInputValidate::IsNumberBetween(
+	   clsDate(), clsDate(31, 12, 2024),clsDate(11, 9, 2024)) << endl;
+
+   cout << "\nPlease Enter a Number : ";
+   int I = clsInputValidate::ReadIntNumber("Invalid Number, Enter again: ");
+   cout << "I = " << I;
+
+   cout << "\nPlease Enter a double Number : ";
+   double D = clsInputValidate::ReadDblNumber("Invalid Number, Enter again: ");
+   cout << "D = " << D;
+
+   cout << "\nPlease Enter a Number Between 1 and 5 : ";
+   double IB = clsInputValidate::ReadIntNumberBetween(1,5,"Number is not within range, enter again: ");
+   cout << "IB = " << IB;
+
+   cout << "\nPlease Enter a Double Number between 1 and 5: ";
+   double DB = clsInputValidate::ReadDblNumberBetween(1, 5, "Number is not within range, enter again: ");
+   cout << "DB = " << DB;
+
+   cout << endl << clsDate::IsValidDate(clsDate(35, 12, 2022)) << endl;
+
+   system("pause>0");
+
+   return 0;
 }

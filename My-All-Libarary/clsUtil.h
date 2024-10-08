@@ -1,8 +1,6 @@
 #pragma once
-#include <iostream>
 #include<cstdlib>
 #include"clsDate.h"
-using namespace std;
 
 class clsUtil
 {
