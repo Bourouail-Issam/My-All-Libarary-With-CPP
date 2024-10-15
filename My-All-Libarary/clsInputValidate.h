@@ -59,7 +59,7 @@ public:
 			return true;		
 	}
 
-	static int ReadIntNumber(string ErrorMessage = "Invalid Number, Enter again : ")
+	static int IsDateBetween(string ErrorMessage = "Invalid Number, Enter again : ")
 	{
 		int Number;
 		while (!(cin >> Number)) {
@@ -83,12 +83,12 @@ public:
 
 	static int ReadIntNumberBetween(int From, int To, string ErrorMessage = "Number is not within range, enter again: ")
 	{
-		int number = ReadIntNumber();
+		int number = IsDateBetween();
 
 		while (!IsNumberBetween(number,From,To))
 		{
 			cout << ErrorMessage;
-			number = ReadIntNumber();
+			number = IsDateBetween();
 		}
 
 		return number;
@@ -109,6 +109,36 @@ public:
 
 	static bool IsValideDate(clsDate Date) {
 		return clsDate::IsValidDate(Date);
+	}
+
+	static float ReadFloatNumber(string ErrorMessage = "Invalid Number, Enter again\n")
+	{
+		float Number;
+		while (!(cin >> Number)) {
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+			cout << ErrorMessage;
+		}
+		return Number;
+	}
+
+	static float ReadFloatNumberBetween(float From, float To, string ErrorMessage = "Number is not within range, Enter again:\n")
+	{
+		float Number = ReadFloatNumber();
+
+		while (!IsNumberBetween(Number, From, To)) {
+			cout << ErrorMessage;
+			Number = ReadFloatNumber();
+		}
+		return Number;
+	}
+
+	static string ReadString()
+	{
+		string  S1 = "";
+		// Usage of std::ws will extract all the whitespace character
+		getline(cin >> ws, S1);
+		return S1;
 	}
 };
 

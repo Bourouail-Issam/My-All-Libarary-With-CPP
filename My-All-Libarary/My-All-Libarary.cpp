@@ -89,7 +89,7 @@ int main()
 	   clsDate(), clsDate(31, 12, 2024),clsDate(11, 9, 2024)) << endl;
 
    cout << "\nPlease Enter a Number : ";
-   int I = clsInputValidate::ReadIntNumber("Invalid Number, Enter again: ");
+   int I = clsInputValidate::IsDateBetween("Invalid Number, Enter again: ");
    cout << "I = " << I;
 
    cout << "\nPlease Enter a double Number : ";
